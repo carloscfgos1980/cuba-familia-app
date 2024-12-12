@@ -20,13 +20,13 @@ const Footer = () => {
                     <div className="instagram">
                         <a className="" href='https://www.instagram.com/cubaenfamilia/' target="_blank" rel="noreferrer">
                                 <img className="orange p-1 rounded" width='40p%' src={Instagram} alt="Instagram" />
-                            <p className="align-bottom">@fun.cuba</p>
+                            <p className="align-bottom">@cuba en familia</p>
                         </a >
                     </div>
                     <div className="facebook">
                             <a className="" href='https://www.facebook.com/groups/735810607858390' target="_blank" rel="noreferrer">
                                 <img className="orange p-1 rounded"  width='40p%' src={Facebook} alt="Facebook" />
-                            <p className="align-bottom">@fun.cuba</p>
+                            <p className="align-bottom">@cuba en familia</p>
                             </a>
                     </div>
                 </div>  
