@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "../../layout.css";
 
-const FunNav = () => {
+const HorizontalNav = () => {
   return (
     <nav className="d-inline-block align-center">
       <NavLink to="/">
@@ -17,4 +17,4 @@ const FunNav = () => {
   );
 };
 
-export default FunNav;
+export default HorizontalNav;
