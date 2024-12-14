@@ -21,26 +21,26 @@ const Footer = () => {
                         </div>
                     </a>
                 </div>
-                <div className="instagram col-sm-2">
+                <div className="instagram col-4 col-sm-2">
                     <a className="text-decoration-none" href='https://www.instagram.com/cubaenfamilia/' target="_blank" rel="noreferrer">
-                        <div className=" d-flex align-items-baseline pb-2">
+                        <div className=" d-flex align-items-baseline">
                             <img className="bg-light rounded mx-2" width='40p%' src={Instagram} alt="Instagram" />
                             <p className="lead fw-bold">@CEF</p>
                         </div>
                     </a >
                 </div>
-                <div className="facebook col-sm-2">
+                <div className="facebook col-4 col-sm-2">
                     <a className="text-decoration-none" href='https://www.facebook.com/groups/735810607858390' target="_blank" rel="noreferrer">
-                        <div className="d-flex align-items-baseline py-2">
+                        <div className="d-flex align-items-baseline">
                             <img className="bg-light p-1 rounded mx-2"  width='40p%' src={Facebook} alt="Facebook" />
                             <p className="lead fw-bold">@CEF</p>                            
                         </div>
                     </a>
                 </div>
-                <div className="twitter col-sm-2">
+                <div className="twitter col-4 col-sm-2">
                     <a className="text-decoration-none" href='https://www.facebook.com/groups/735810607858390' target="_blank" rel="noreferrer">
-                        <div className="col-sm-3 col-sm-3 d-flex align-items-baseline pb-2 ">
-                            <img className="bg-light p-1 rounded mx-2 mt-2"  width='40p%' src={Twitter} alt="Twitter" />
+                        <div className="col-sm-3 col-sm-3 d-flex align-items-baseline">
+                            <img className="bg-light p-1 rounded mx-2"  width='40p%' src={Twitter} alt="Twitter" />
                             <p className="lead fw-bold">@CEF</p>                            
                         </div>
                     </a>
