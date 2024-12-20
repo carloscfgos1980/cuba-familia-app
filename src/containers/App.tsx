@@ -6,17 +6,19 @@ import {
 } from "react-router-dom";
 
 
-import Page2 from "../layouts/Pages/Page2";
+import Project from "../layouts/Pages/Project";
 import Home from "../layouts/Pages/Home";
-import Page3 from "../layouts/Pages/Page3";
+import Goals from "../layouts/Pages/Goals";
 import RootLayout from "../layouts/RootLayout";
+import Collaborations from "../layouts/Pages/Collaborations";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
-      <Route path="/page2" element={<Page2 />} />
-      <Route path="/page3" element={<Page3 />} />
+      <Route path="/project" element={<Project />} />
+      <Route path="/goals" element={<Goals />} />
+      <Route path="/collaborations" element={<Collaborations />} />
     </Route>,
   ),
 );

@@ -7,11 +7,14 @@ const CEFNav = () => {
       <NavLink className="text-decoration-none" to="/">
         <span className="px-2 fs-5">Home</span>
       </NavLink>
-      <NavLink className="text-decoration-none" to="/page2">
-        <span className="px-2 fs-5">Page 2</span>
+      <NavLink className="text-decoration-none" to="/project">
+        <span className="px-2 fs-5">Quienes somos</span>
       </NavLink>
-      <NavLink className="text-decoration-none" to="/page3">
-        <span className="px-2 fs-5">Page 3</span>
+      <NavLink className="text-decoration-none" to="/goals">
+        <span className="px-2 fs-5">Que hacemos</span>
+      </NavLink>
+      <NavLink className="text-decoration-none" to="/collaborations">
+        <span className="px-2 fs-5">Cómo ayudar</span>
       </NavLink>
     </nav>
   );
