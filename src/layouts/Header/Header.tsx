@@ -59,7 +59,7 @@ const Header = () => {
                                     </CustomWidthTooltip>                           
                                 </a>
                             </div>
-                            <div className="col-5 text-end">
+                            <div className="col-6 text-end">
                                 <button onClick={toggle} type="button" className="btn btn-light fw-bold btn-sm">X</button>
                                 <CEFNav/>           
                             </div>
